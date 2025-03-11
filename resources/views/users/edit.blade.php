@@ -35,7 +35,7 @@
                         </div>
 
                         <div class="mb-3">
-                            <label for="nip" class="form-label">NIP</label>
+                            <label for="nip" class="form-label">NRP</label>
                             <input type="text" class="form-control @error('nip') is-invalid @enderror" 
                                    id="nip" name="nip" value="{{ old('nip', $user->nip) }}" required>
                             @error('nip')

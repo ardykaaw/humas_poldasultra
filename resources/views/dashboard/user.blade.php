@@ -158,7 +158,7 @@
                         </div>
                         <div class="card-body">
                             <div class="mb-3">
-                                <small class="text-muted d-block">NIP</small>
+                                <small class="text-muted d-block">NRP</small>
                                 <div class="fw-semibold">{{ auth()->user()->nip }}</div>
                             </div>
                             <div class="mb-3">

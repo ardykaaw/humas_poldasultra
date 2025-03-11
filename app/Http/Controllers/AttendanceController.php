@@ -60,7 +60,7 @@ class AttendanceController extends Controller
         ]);
         
         Log::info('New attendance created:', [
-            'user_id' => $user->id,
+                'user_id' => $user->id,
             'date' => $today,
             'qr_code' => $attendance->qr_code
         ]);
@@ -203,9 +203,9 @@ class AttendanceController extends Controller
                 ->with('error', 'Anda sudah melakukan check out hari ini');
         }
         
-        $attendance->update([
-            'check_out' => now()->format('H:i:s')
-        ]);
+            $attendance->update([
+                'check_out' => now()->format('H:i:s')
+            ]);
 
         return redirect()->route('attendance.daily')
             ->with('success', 'Berhasil melakukan check out');

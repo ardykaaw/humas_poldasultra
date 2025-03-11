@@ -133,7 +133,7 @@
                         <tr>
                             <th class="border-0 ps-3">No</th>
                             <th class="border-0">Nama</th>
-                            <th class="border-0">NIP</th>
+                            <th class="border-0">NRP</th>
                             <th class="border-0">Pangkat</th>
                             <th class="border-0">Jabatan</th>
                             <th class="border-0">Email</th>

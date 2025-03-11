@@ -107,7 +107,7 @@
                             <tr>
                                 <th>No</th>
                                 <th>Nama</th>
-                                <th>NIP</th>
+                                <th>NRP</th>
                                 <th>Pangkat</th>
                                 <th>Jabatan</th>
                                 <th>Check In</th>
